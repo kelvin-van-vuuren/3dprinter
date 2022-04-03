@@ -1,0 +1,13 @@
+#! /bin/sh
+
+fullfilename=$1
+extension="${fullfilename##*.}"
+filename="${fullfilename%.*}"
+
+if [ $extension != "curaprofile" ]; then
+    echo "Incorrect file extension. A .curaprofile file must be passed in."
+    exit
+fi
+
+echo "Extracting cura profile to $filename folder"
+unzip $fullfilename 

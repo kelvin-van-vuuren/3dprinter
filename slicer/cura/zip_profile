@@ -1,0 +1,12 @@
+#! /bin/sh
+
+foldername=$1
+profilename="$foldername.curaprofile"
+
+if [ ! -d "$foldername" ]; then
+    echo "Invalid folder passed in. Pass in folder containing unzipped cura profiles."
+    exit
+fi
+
+echo "Zipping $foldername into $profilename"
+zip -r $profilename $foldername
