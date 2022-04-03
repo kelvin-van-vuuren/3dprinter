@@ -1,0 +1,18 @@
+[general]
+version = 4
+name = pla_0_2_layer_height
+definition = creality_base
+
+[metadata]
+type = quality_changes
+quality_type = standard
+setting_version = 19
+
+[values]
+adhesion_type = skirt
+layer_height_0 = 0.3
+material_bed_temperature_layer_0 = 65
+support_enable = True
+support_structure = normal
+support_type = buildplate
+

@@ -1,0 +1,21 @@
+[general]
+version = 4
+name = pla_0_2_layer_height
+definition = creality_base
+
+[metadata]
+type = quality_changes
+quality_type = standard
+intent_category = default
+position = 0
+setting_version = 19
+
+[values]
+brim_outside_only = True
+material_print_temperature = 205.0
+material_print_temperature_layer_0 = 210.0
+retraction_amount = 3.5
+retraction_extrusion_window = 7
+speed_layer_0 = 30
+speed_print = 100
+
